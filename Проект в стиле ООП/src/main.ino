@@ -1,11 +1,4 @@
-//
-//	  Тестирование производилось на Arduino IDE 1.8.7
-//	  Дата тестирования 15.12.2019г.
 
-//Скетч использует 54660 байт (21%) памяти устройства. Всего доступно 253952 байт.
-//Глобальные переменные используют 3523 байт (43%) динамической памяти, оставляя 4669 байт для локальных переменных. Максимум: 8192 байт.
-
-//	?? - вопросы
 
 //>> Подключаемые библиотеки:
 
@@ -390,47 +383,6 @@ int day_cycle = 1;					// (1 - первый день)  (элемент масс�
 
 
 
-
-
-
-//*****************************************-----------ПРОТОТИПЫ функций-----------*******
-
-
-void calibration_motor();
-void calibration_DC_motor();
-void calibration_Step_motor();
-void error_calibration_DC_motor();
-void error_calibration_Step_motor();
-void DC_Motor_Go(int position_12);
-void DC_motor_failure();
-void read_Button();
-void read_pin_door();
-void StepMotor_Go(int position_19_next);
-void stepMotor_Step(int thisStep);
-void Timer1_init();
-void position_12_1_stop();
-void position_12_2_stop();
-void position_19_1_stop();
-void position_19_9_stop();
-void Timer4_init();
-void Timer5_init();
-void read_RCT();
-void error();
-void Timer3_init();
-void flash_green();
-void write_file();
-void error_SD();
-void post_reboot_system();
-void crash_RCT();
-void regulate_CO2();
-void regulate_hidro();
-void regulate_Temp();
-void regulate_Hot_Cold();
-void regulate_water();
-void regulate_light();
-void reboot_system();
-void reboot_5V();
-void power_down();
 
 
 
